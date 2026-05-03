@@ -1,4 +1,4 @@
-# Neuroaculturación Embera — Maestría Uniandes
+# Neuroaculturación Embera 2021 — Maestría Uniandes
 
 Proyecto de investigación de maestría sobre el desempeño neuropsicológico y el proceso de aculturación en la comunidad indígena **Embera Chamí** (Colombia). Este repositorio contiene los datos procesados, scripts de análisis en R, figuras, y documentos del manuscrito final.
 
@@ -103,5 +103,4 @@ Manuscrito final (PG2/)
 
 ## Autor
 
-**Carlos Zapata** — Maestría en Epidemiología Clínica, Universidad de los Andes  
-Contacto: caenzabo@gmail.com
+**Carlos Zapata** — Maestría en Epidemiología, Universidad de los Andes 2021
