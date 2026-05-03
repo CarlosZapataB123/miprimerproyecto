@@ -1,0 +1,204 @@
+Variable,Type,Description,Range_Values
+id,character,NA,"AG70S1001, AG56S1002, AG24S1003, AG24S1004, AG30S1005"
+sex,numeric,NA,1–2
+education_yrs,numeric,NA,0–19
+occupation,character,NA,"artesania, Ama de casa, Agricultura, estudiante, Estudiante"
+bilingual,numeric,NA,1–1
+civil_status,numeric,NA,1–4
+area_residence,numeric,NA,1–1
+monthly_income,numeric,NA,30000–1400000
+alcohol_use,numeric,NA,1–3
+bmi,numeric,NA,19–32
+work_outside,numeric,NA,0–1
+internet_access,numeric,NA,0–1
+MANO DOMINANTE,numeric,NA,1–3
+EDAD COMIENZO ESCUELA,numeric,NA,0–13
+RESIDENCIA ACTUAL,numeric,NA,1–1
+TIEMPO VIVIDO AQUÍ,numeric,NA,1–13
+RESIDENCIA EN OTRO LUGAR,numeric,NA,1–1
+¿DÓNDE?,numeric,NA,1–6
+¿CUÁNTO TIEMPO?,numeric,NA,1–58
+CURSO DE IDIOMA,numeric,NA,0–0
+IDIOMA MATERNO PADRE,numeric,NA,1–1
+IDIOMA MATERNO MADRE,numeric,NA,1–1
+IDIOMA CASA 1,numeric,NA,1–1
+PORCENTAJE,numeric,NA,50–100
+IDIOMA EMB,numeric,NA,1–1
+PRIMER CONTACTO EMB,numeric,NA,1–1
+GUARDERÍA EMB,numeric,NA,0–5
+PREESCOLAR EMB,numeric,NA,0–5
+PRIMARIA EMB,numeric,NA,0–5
+SECUNDARIA EMB,numeric,NA,0–5
+BACHILLER EMB,numeric,NA,0–5
+UNIVERSIDAD EMB,numeric,NA,0–0
+CONTEXTOS ESPECÍFICOS EMB,numeric,NA,1–2
+EXPRESIÓN EMB,numeric,NA,3–5
+COMPRENSIÓN EMB,numeric,NA,4–5
+LECTURA EMB,numeric,NA,0–5
+ESCRITURA EMB,numeric,NA,0–5
+ACENTO EMB,numeric,NA,1–5
+IDIOMA ESP,numeric,NA,2–2
+PRIMER CONTACTO ESP,numeric,NA,1–21
+GUARDERÍA ESP,numeric,NA,0–5
+PREESCOLAR ESP,numeric,NA,0–5
+PRIMARIA ESP,numeric,NA,0–5
+SECUNDARIA ESP,numeric,NA,0–5
+BACHILLER ESP,numeric,NA,5–5
+UNIVERSIDAD ESP,numeric,NA,5–5
+CONTEXTOS ESPECÍFICOS ESP,numeric,NA,1–7
+EXPRESIÓN ESP,numeric,NA,1–5
+COMPRENSIÓN ESP,numeric,NA,2–5
+LECTURA ESP,numeric,NA,0–5
+ESCRITURA ESP,numeric,NA,0–5
+ACENTO ESP,numeric,NA,1–5
+SF1,numeric,NA,1–5
+SF2,numeric,NA,1–5
+SF3,numeric,NA,1–3
+SF4,numeric,NA,1–3
+SF5,numeric,NA,1–3
+SF6,numeric,NA,1–3
+SF7,numeric,NA,1–3
+SF8,numeric,NA,1–3
+SF9,numeric,NA,1–3
+SF10,numeric,NA,2–3
+SF11,numeric,NA,2–3
+SF12,numeric,NA,2–3
+SF13,numeric,NA,1–2
+SF14,numeric,NA,1–2
+SF15,numeric,NA,1–2
+SF16,numeric,NA,1–2
+SF17,numeric,NA,1–3
+SF18,numeric,NA,1–3
+SF19,numeric,NA,1–3
+SF20,numeric,NA,1–4
+SF21,numeric,NA,1–6
+SF22,numeric,NA,1–4
+SF23,numeric,NA,1–6
+SF24,numeric,NA,1–6
+SF25,numeric,NA,1–6
+SF26,numeric,NA,1–5
+SF27,numeric,NA,1–6
+SF28,numeric,NA,1–6
+SF29,numeric,NA,1–6
+SF30,numeric,NA,1–6
+SF31,numeric,NA,1–6
+SF32,numeric,NA,1–5
+SF33,numeric,NA,1–5
+SF34,numeric,NA,1–5
+SF35,numeric,NA,1–6
+SF36,numeric,NA,1–5
+mmse,numeric,NA,21–30
+phq9,numeric,NA,0–12
+barthel,numeric,NA,95–100
+rocft_copy,numeric,NA,3–36
+rocft_memory,numeric,NA,0–34
+vf_m,numeric,NA,1–20
+vf_r,numeric,NA,0–18
+vf_p,numeric,NA,1–22
+vf_animals,numeric,NA,4–23
+vf_fruits,numeric,NA,3–23
+hvlt_t1,numeric,NA,0–8
+hvlt_t2,numeric,NA,2–9
+hvlt_t3,numeric,NA,2–12
+hvlt_total,numeric,NA,7–26
+hvlt_delay,numeric,NA,1–12
+hvlt_recog,numeric,NA,5–12
+hvlt_fp_related,numeric,NA,0–6
+hvlt_fp_unrelated,numeric,NA,0–6
+hvlt_errors,numeric,NA,0–11
+stroop_words,numeric,NA,8–112
+stroop_colors,numeric,NA,9–86
+stroop_inhibition,numeric,NA,8–60
+stroop_corrected,numeric,NA,4.2–45.5
+stroop_interfere,numeric,NA,-23.3–41
+wcst_categories,numeric,NA,0–6
+wcst_persev,numeric,NA,0–25
+wcst_errors_type,numeric,NA,2–26
+wcst_errors_total,numeric,NA,3–40
+tmt_a,numeric,NA,28–215
+tmt_b,numeric,NA,71–853
+bta_num,numeric,NA,0–10
+bta_let,numeric,NA,0–10
+bta_total,numeric,NA,0–19
+sdmt_correct,numeric,NA,3–58
+sdmt_errors,numeric,NA,0–14
+acul_speak,numeric,NA,1–4
+acul_read,numeric,NA,0–5
+acul_write,numeric,NA,0–5
+acul_lang_child,numeric,NA,1–5
+acul_lang_home,numeric,NA,1–4
+acul_lang_work,numeric,NA,1–5
+acul_lang_friend,numeric,NA,1–5
+acul_lang_think,numeric,NA,1–5
+acul_friends,numeric,NA,1–5
+acul_parties,numeric,NA,1–5
+acul_visits,numeric,NA,1–5
+acul_children,numeric,NA,1–5
+acul_rituals,numeric,NA,1–3
+acul_religion,numeric,NA,0–5
+acul_clothing,numeric,NA,1–5
+acul_identity,numeric,NA,1–5
+ACULTURACION_TOTAL,numeric,NA,16–56
+sex_f,factor,NA,"Male, Female"
+sex_female,integer,NA,0–1
+education_cat,factor,NA,"No schooling, Secondary, Primary, Higher"
+age_group,factor,NA,"18–29, 50–59, 30–39, 40–49, 60+"
+partnered,integer,NA,0–1
+civil_status_f,factor,NA,"With partner, Without partner"
+alcohol_reg,integer,NA,0–1
+alcohol_f,factor,NA,"No regular use, Regular use"
+occupation_r,factor,NA,"Crafts, Homemaker, Agriculture, Leadership/Other"
+internet_f,factor,NA,"No, Yes"
+work_outside_f,factor,NA,"Yes, No"
+vf_phonological,numeric,NA,4–57
+vf_semantic,numeric,NA,9–45
+acculturation,numeric,NA,16–56
+tmt_a_neg,numeric,NA,-215–-28
+tmt_b_neg,numeric,NA,-853–-71
+income_cat,factor,NA,"0–200K COP, 400–600K COP, 200–400K COP, >1M COP, 800K–1M COP"
+income_log,numeric,NA,10.3–14.2
+SF1r,numeric,NA,0–100
+SF2r,numeric,NA,0–100
+SF20r,numeric,NA,25–100
+SF22r,numeric,NA,25–100
+SF34r,numeric,NA,0–100
+SF36r,numeric,NA,0–100
+SF3r,numeric,NA,0–100
+SF4r,numeric,NA,0–100
+SF5r,numeric,NA,0–100
+SF6r,numeric,NA,0–100
+SF7r,numeric,NA,0–100
+SF8r,numeric,NA,0–100
+SF9r,numeric,NA,0–100
+SF10r,numeric,NA,50–100
+SF11r,numeric,NA,50–100
+SF12r,numeric,NA,50–100
+SF13r,numeric,NA,0–100
+SF14r,numeric,NA,0–100
+SF15r,numeric,NA,0–100
+SF16r,numeric,NA,0–100
+SF17r,numeric,NA,0–100
+SF18r,numeric,NA,0–100
+SF19r,numeric,NA,0–100
+SF21r,numeric,NA,0–100
+SF23r,numeric,NA,0–100
+SF26r,numeric,NA,20–100
+SF27r,numeric,NA,0–100
+SF30r,numeric,NA,0–100
+SF24r,numeric,NA,0–100
+SF25r,numeric,NA,0–100
+SF28r,numeric,NA,0–100
+SF29r,numeric,NA,0–100
+SF31r,numeric,NA,0–100
+SF32r,numeric,NA,0–100
+SF33r,numeric,NA,0–100
+SF35r,numeric,NA,0–100
+sf36_FF,numeric,NA,45–100
+sf36_RF,numeric,NA,0–100
+sf36_RE,numeric,NA,0–100
+sf36_EF,numeric,NA,20–100
+sf36_BS,numeric,NA,20–100
+sf36_FS,numeric,NA,25–100
+sf36_DC,numeric,NA,12.5–100
+sf36_SG,numeric,NA,20–100
+participant_code,character,NA,"P0000000000000000000000000000000000000000000000000000000000000000000000000000000000000080, P0000000000000000000000000000000000000000000000000000000000000000000000000000000000000026, P0000000000000000000000000000000000000000000000000000000000000000000000000000000000000062, P0000000000000000000000000000000000000000000000000000000000000000000000000000000000000054, P0000000000000000000000000000000000000000000000000000000000000000000000000000000000000064"

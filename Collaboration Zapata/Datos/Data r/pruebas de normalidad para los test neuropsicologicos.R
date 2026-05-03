@@ -1,0 +1,103 @@
+library(readxl)
+library(nortest)
+cfa <- read_excel("cfa.xlsx")
+View(cfa)
+hist(cfa$`FIGURA DE REY PUNTUACIÓN COPIA`)
+hist(cfa$`FIGURA DE REY PUNTUACIÓN MEMORIA INMEDIATA`)
+hist(cfa$`FLUIDEZ VERBAL M`)
+hist(cfa$`FLUIDEZ VERBAL R`)
+hist(cfa$`FLUIDEZ VERBAL P`)
+hist(cfa$`FLUIDEZ SEMANTICA ANIMALES`)
+hist(cfa$`FLUIDEZ SEMANTICA FRUTAS`)
+hist(cfa$`HLVRT-R ENSAYO 1`)
+hist(cfa$`HLVRT-R ENSAYO 2`)
+hist(cfa$`HLVRT-R ENSAYO 3`)
+hist(cfa$`TOTAL RECUERDO INMEDIATO`)
+hist(cfa$`HLVRT-R EVOCACIÓN TARDÍA`)
+hist(cfa$`RECONOCIMIENTO TOTAL CORRECTAS`)
+hist(cfa$`STROOP P`)
+hist(cfa$`STROOP C`)
+hist(cfa$`STROOP PC`)
+hist(cfa$`M-WCST Categorías Correctas`)
+hist(cfa$`M-WCST Perseveraciones`)
+hist(cfa$`M-WCST total Errores`)
+hist(cfa$`TMT A Tiempo (sg)`)
+hist(cfa$`TMT B Tiempo (sg)`)
+hist(cfa$`BTA-N`)
+hist(cfa$`BTA-L`)
+hist(cfa$SDMT)
+hist(cfa$Errores)
+### visualmente ayuda el grafico de desndidad
+
+plot(density(cfa$`FIGURA DE REY PUNTUACIÓN COPIA`))
+plot(density(cfa$`FIGURA DE REY PUNTUACIÓN MEMORIA INMEDIATA`))
+plot(density(cfa$`FLUIDEZ VERBAL M`))
+plot(density(cfa$`FLUIDEZ VERBAL R`))
+plot(density(cfa$`FLUIDEZ VERBAL P`))
+plot(density(cfa$`FLUIDEZ SEMANTICA ANIMALES`))
+plot(density(cfa$`FLUIDEZ SEMANTICA FRUTAS`))
+plot(density(cfa$`HLVRT-R ENSAYO 1`))
+plot(density(cfa$`HLVRT-R ENSAYO 2`))
+plot(density(cfa$`HLVRT-R ENSAYO 3`))
+plot(density(cfa$`TOTAL RECUERDO INMEDIATO`))
+plot(density(cfa$`HLVRT-R EVOCACIÓN TARDÍA`))
+plot(density(cfa$`RECONOCIMIENTO TOTAL CORRECTAS`))
+plot(density(cfa$`STROOP P`))
+plot(density(cfa$`STROOP C`))
+plot(density(cfa$`STROOP PC`))
+plot(density(cfa$`M-WCST Categorías Correctas`))
+plot(density(cfa$`M-WCST Perseveraciones`))
+plot(density(cfa$`M-WCST total Errores`))
+plot(density(cfa$`TMT A Tiempo (sg)`))
+plot(density(cfa$`TMT B Tiempo (sg)`))
+plot(density(cfa$`BTA-N`))
+plot(density(cfa$`BTA-L`))
+plot(density(cfa$`SDMT`))
+plot(density(cfa$Errores))
+
+
+lillie.test(cfa$`FIGURA DE REY PUNTUACIÓN COPIA`)
+lillie.test(cfa$`FIGURA DE REY PUNTUACIÓN MEMORIA INMEDIATA`)
+lillie.test(cfa$`FLUIDEZ VERBAL M`)
+lillie.test(cfa$`FLUIDEZ VERBAL R`)
+lillie.test(cfa$`FLUIDEZ VERBAL P`)
+lillie.test(cfa$`FLUIDEZ SEMANTICA ANIMALES`)
+lillie.test(cfa$`FLUIDEZ SEMANTICA FRUTAS`)
+lillie.test(cfa$`HLVRT-R ENSAYO 1`)
+lillie.test(cfa$`HLVRT-R ENSAYO 2`)
+lillie.test(cfa$`HLVRT-R ENSAYO 3`)
+lillie.test(cfa$`TOTAL RECUERDO INMEDIATO`)
+lillie.test(cfa$`HLVRT-R EVOCACIÓN TARDÍA`)
+lillie.test(cfa$`RECONOCIMIENTO TOTAL CORRECTAS`)
+lillie.test(cfa$`STROOP P`)
+lillie.test(cfa$`STROOP C`)
+lillie.test(cfa$`STROOP PC`)
+lillie.test(cfa$`M-WCST Categorías Correctas`)
+lillie.test(cfa$`M-WCST Perseveraciones`)
+lillie.test(cfa$`M-WCST total Errores`)
+lillie.test(cfa$`TMT A Tiempo (sg)`)
+lillie.test(cfa$`TMT B Tiempo (sg)`)
+lillie.test(cfa$`BTA-N`)
+lillie.test(cfa$`BTA-L`)
+lillie.test(cfa$SDMT)
+lillie.test(cfa$Errores)
+
+
+#### fluidez semantica animales (0.12), stropp pc (0.12) y sdmt (0.08)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+plot(density(cfa$`STROOP PC`))shapiro.test(cfa$`FIGURA DE REY PUNTUACIÓN COPIA`)
+
+lillie.test(cfa$`FIGURA DE REY PUNTUACIÓN COPIA`)
